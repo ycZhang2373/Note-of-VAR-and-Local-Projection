@@ -1,0 +1,127 @@
+Starting preprocessing of the model file ...
+Found 19 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+MODEL SUMMARY
+
+  Number of variables:         19
+  Number of stochastic shocks: 2
+  Number of state variables:   5
+  Number of jumpers:           4
+  Number of static variables:  11
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a     eps_u
+eps_a        0.000000  0.000000
+eps_u        0.000000  1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                                  pi           y_gap           y_nat               y             r_e             y_e               x           r_nat          r_real               i               n    m_growth_ann               u               a      r_real_ann           i_ann       r_nat_ann          pi_ann               p
+y(-1)                              0               0               0               0               0               0               0               0               0               0               0       -4.000000               0               0               0               0               0               0               0
+i(-1)                              0               0               0               0               0               0               0               0               0               0               0       16.000000               0               0               0               0               0               0               0
+p(-1)                              0               0               0               0               0               0               0               0               0               0               0               0               0               0               0               0               0               0        1.000000
+a(-1)                              0               0        0.900000        0.900000       -0.090000        0.900000               0       -0.090000       -0.090000       -0.090000               0        5.040000               0        0.900000       -0.360000       -0.360000       -0.360000               0               0
+eps_a                              0               0        1.000000        1.000000       -0.100000        1.000000               0       -0.100000       -0.100000       -0.100000               0        5.600000               0        1.000000       -0.400000       -0.400000       -0.400000               0               0
+eps_u                       0.566572       -3.399433               0       -3.399433               0               0       -3.399433               0        3.399433        3.399433       -5.099150      -65.722380        1.000000               0       13.597734       13.597734               0        2.266289        0.566572
+
+
+MOMENTS OF SIMULATED VARIABLES
+VARIABLE                  MEAN       STD. DEV.        VARIANCE        SKEWNESS        KURTOSIS
+pi                   -0.041179        0.566580        0.321013        0.160487        0.097955
+y_gap                 0.247076        3.399479       11.556460       -0.160487        0.097955
+y_nat                 0.000000        0.000000        0.000000             NaN             NaN
+y                     0.247076        3.399479       11.556460       -0.160487        0.097955
+r_e                   0.000000        0.000000        0.000000             NaN             NaN
+y_e                   0.000000        0.000000        0.000000             NaN             NaN
+x                     0.247076        3.399479       11.556460       -0.160487        0.097955
+r_nat                -0.000000        0.000000        0.000000             NaN             NaN
+r_real               -0.247076        3.399479       11.556460        0.160487        0.097955
+i                    -0.247076        3.399479       11.556460        0.160487        0.097955
+n                     0.370614        5.099219       26.002035       -0.160487        0.097955
+m_growth_ann         -1.809954       95.033186     9031.306483       -0.275128       -0.011577
+u                    -0.072681        1.000014        1.000027        0.160487        0.097955
+a                     0.000000        0.000000        0.000000             NaN             NaN
+r_real_ann           -0.988303       13.597917      184.903359        0.160487        0.097955
+i_ann                -0.988303       13.597917      184.903359        0.160487        0.097955
+r_nat_ann            -0.000000        0.000000        0.000000             NaN             NaN
+pi_ann               -0.164717        2.266320        5.136204        0.160487        0.097955
+p                     4.255252        2.729306        7.449109        0.091883       -1.482447
+
+
+CORRELATION OF SIMULATED VARIABLES
+VARIABLE                  pi         y_gap         y_nat             y           r_e           y_e             x         r_nat        r_real             i             n  m_growth_ann             u             a    r_real_ann         i_ann     r_nat_ann        pi_ann             p
+pi                    1.0000       -1.0000           NaN       -1.0000           NaN           NaN       -1.0000           NaN        1.0000        1.0000       -1.0000       -0.6898        1.0000           NaN        1.0000        1.0000           NaN        1.0000        0.0868
+y_gap                -1.0000        1.0000           NaN        1.0000           NaN           NaN        1.0000           NaN       -1.0000       -1.0000        1.0000        0.6898       -1.0000           NaN       -1.0000       -1.0000           NaN       -1.0000       -0.0868
+y_nat                    NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN
+y                    -1.0000        1.0000           NaN        1.0000           NaN           NaN        1.0000           NaN       -1.0000       -1.0000        1.0000        0.6898       -1.0000           NaN       -1.0000       -1.0000           NaN       -1.0000       -0.0868
+r_e                      NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN
+y_e                      NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN
+x                    -1.0000        1.0000           NaN        1.0000           NaN           NaN        1.0000           NaN       -1.0000       -1.0000        1.0000        0.6898       -1.0000           NaN       -1.0000       -1.0000           NaN       -1.0000       -0.0868
+r_nat                    NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN
+r_real                1.0000       -1.0000           NaN       -1.0000           NaN           NaN       -1.0000           NaN        1.0000        1.0000       -1.0000       -0.6898        1.0000           NaN        1.0000        1.0000           NaN        1.0000        0.0868
+i                     1.0000       -1.0000           NaN       -1.0000           NaN           NaN       -1.0000           NaN        1.0000        1.0000       -1.0000       -0.6898        1.0000           NaN        1.0000        1.0000           NaN        1.0000        0.0868
+n                    -1.0000        1.0000           NaN        1.0000           NaN           NaN        1.0000           NaN       -1.0000       -1.0000        1.0000        0.6898       -1.0000           NaN       -1.0000       -1.0000           NaN       -1.0000       -0.0868
+m_growth_ann         -0.6898        0.6898           NaN        0.6898           NaN           NaN        0.6898           NaN       -0.6898       -0.6898        0.6898        1.0000       -0.6898           NaN       -0.6898       -0.6898           NaN       -0.6898       -0.0070
+u                     1.0000       -1.0000           NaN       -1.0000           NaN           NaN       -1.0000           NaN        1.0000        1.0000       -1.0000       -0.6898        1.0000           NaN        1.0000        1.0000           NaN        1.0000        0.0868
+a                        NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN
+r_real_ann            1.0000       -1.0000           NaN       -1.0000           NaN           NaN       -1.0000           NaN        1.0000        1.0000       -1.0000       -0.6898        1.0000           NaN        1.0000        1.0000           NaN        1.0000        0.0868
+i_ann                 1.0000       -1.0000           NaN       -1.0000           NaN           NaN       -1.0000           NaN        1.0000        1.0000       -1.0000       -0.6898        1.0000           NaN        1.0000        1.0000           NaN        1.0000        0.0868
+r_nat_ann                NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN
+pi_ann                1.0000       -1.0000           NaN       -1.0000           NaN           NaN       -1.0000           NaN        1.0000        1.0000       -1.0000       -0.6898        1.0000           NaN        1.0000        1.0000           NaN        1.0000        0.0868
+p                     0.0868       -0.0868           NaN       -0.0868           NaN           NaN       -0.0868           NaN        0.0868        0.0868       -0.0868       -0.0070        0.0868           NaN        0.0868        0.0868           NaN        0.0868        1.0000
+
+
+AUTOCORRELATION OF SIMULATED VARIABLES
+VARIABLE             1       2       3       4       5
+pi              0.0300 -0.0051 -0.2463  0.0713 -0.0891
+y_gap           0.0300 -0.0051 -0.2463  0.0713 -0.0891
+y_nat              NaN     NaN     NaN     NaN     NaN
+y               0.0300 -0.0051 -0.2463  0.0713 -0.0891
+r_e                NaN     NaN     NaN     NaN     NaN
+y_e                NaN     NaN     NaN     NaN     NaN
+x               0.0300 -0.0051 -0.2463  0.0713 -0.0891
+r_nat              NaN     NaN     NaN     NaN     NaN
+r_real          0.0300 -0.0051 -0.2463  0.0713 -0.0891
+i               0.0300 -0.0051 -0.2463  0.0713 -0.0891
+n               0.0300 -0.0051 -0.2463  0.0713 -0.0891
+m_growth_ann   -0.4756  0.1051 -0.2939  0.2496 -0.2461
+u               0.0300 -0.0051 -0.2463  0.0713 -0.0891
+a                  NaN     NaN     NaN     NaN     NaN
+r_real_ann      0.0300 -0.0051 -0.2463  0.0713 -0.0891
+i_ann           0.0300 -0.0051 -0.2463  0.0713 -0.0891
+r_nat_ann          NaN     NaN     NaN     NaN     NaN
+pi_ann          0.0300 -0.0051 -0.2463  0.0713 -0.0891
+p               0.9694  0.9454  0.9219  0.9093  0.8947
+
+
+
+VARIANCE DECOMPOSITION SIMULATING ONE SHOCK AT A TIME (in percent)
+                           eps_a             eps_u  Tot. lin. contr.
+pi                          0.00            101.01            101.01
+y_gap                       0.00            101.01            101.01
+y_nat                        NaN               NaN               NaN
+y                           0.00            101.01            101.01
+r_e                          NaN               NaN               NaN
+y_e                          NaN               NaN               NaN
+x                           0.00            101.01            101.01
+r_nat                        NaN               NaN               NaN
+r_real                      0.00            101.01            101.01
+i                           0.00            101.01            101.01
+n                           0.00            101.01            101.01
+m_growth_ann                0.00            101.01            101.01
+u                           0.00            101.01            101.01
+a                            NaN               NaN               NaN
+r_real_ann                  0.00            101.01            101.01
+i_ann                       0.00            101.01            101.01
+r_nat_ann                    NaN               NaN               NaN
+pi_ann                      0.00            101.01            101.01
+p                           0.00            101.01            101.01
+Note: numbers do not add up to 100 due to non-zero correlation of simulated shocks in small samples
+
+Total computing time : 0h00m02s
